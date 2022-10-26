@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
-    <title>Final proj</title>
+    <title>Weather App</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                                 autocomplete="off" />
                         </div>
                         <div class="col-3">
-                            <input type="submit" value="Search" class="btn btn-primary w-90" />
+                            <input type="submit" value="Search" class="btn btn-primary w-100" />
                         </div>
                     </div>
                 </form>
@@ -38,17 +38,16 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="clearfix weather-temperature">
-                            <img src="" alt="Clear" id="icon" class="float" />
-                            <div class="float">
-                                <strong id="temperature"></strong><span class="units">🌡 <a href="#"
-                                        id="celsius-link">°C</a>| <a href="#" id="fahrenheit-link"> °F</a></span>
+                            <img src="" alt="Clear" id="icon" class="float-left" />
+                            <div class="float-left">
+                                <strong id="temperature"></strong><span class="units"> °C</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-6">
                         <ul>
-                            <li>💦Humidity: <span id="humidity"></span>%</li>
-                            <li>💨Wind: <span id="wind"></span> m/h</li>
+                            <li>Humidity: <span id="humidity"></span>%</li>
+                            <li>Wind: <span id="wind"></span> m/h</li>
                         </ul>
                     </div>
                 </div>
