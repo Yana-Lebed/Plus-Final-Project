@@ -3,7 +3,7 @@ body {
     background-image: url("https://i.pinimg.com/564x/b1/5a/7b/b15a7b16a5c962dc12057409530a81ac.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 600px 270px;
+    background-size: 600px 370px;
 }
 
 h1 {
@@ -99,4 +99,13 @@ li:first-letter {
 
 .weather-forecast-temperatures {
     font-size: 13px;
+}
+
+button.current{
+    display: block;
+        margin: 0 auto;
+        background-color: #0a58ca;
+        border-color: #0a58ca;
+        border-radius: 5px;
+        color: aliceblue;
 }
